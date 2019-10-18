@@ -1,6 +1,5 @@
 $(function() {
 
-	
 $('.home-slider').slick({
     infinite: true,
     slidesToShow: 1,
@@ -8,8 +7,6 @@ $('.home-slider').slick({
     autoplay: true,
     arrows: false,
   });
-
-
 /*Sticky Header Function*/
     jQuery(window).scroll(function() {    
         var scroll = jQuery(window).scrollTop();
@@ -27,7 +24,6 @@ $('.td-toogle tr').tooltip({
     placement: 'right',
     html: true
 });
-
 
 $('#tableColor').click(function(){
   $('#tableColor').toggleClass('collapsed ActiveClass');     
@@ -47,9 +43,6 @@ $('#tableColor4').click(function(){
 $('#tableColor5').click(function(){
   $('#tableColor5').toggleClass('collapsed ActiveClass');     
 });
-
-
-
 
 $('.minus').click(function () {
       var $input = $(this).parent().find('input');
